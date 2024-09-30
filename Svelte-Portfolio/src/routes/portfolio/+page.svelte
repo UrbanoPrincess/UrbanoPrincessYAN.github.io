@@ -1,28 +1,28 @@
 <script>
     // Array of images for the image mapping section
     const imageMapping = [
-      { src: 'Gallery/Image Mapping1.png', alt: 'Image 1' }, // This should be first
-      { src: 'Gallery/Image Mapping2.png', alt: 'Image 2' },
-      { src: 'Gallery/Image Mapping3.png', alt: 'Image 3' },
-      { src: 'Gallery/Image Mapping4.png', alt: 'Image 4' },
+      { src: 'images/Image Mapping1.png', alt: 'Image 1' }, // This should be first
+      { src: 'images/Image Mapping2.png', alt: 'Image 2' },
+      { src: 'images/Image Mapping3.png', alt: 'Image 3' },
+      { src: 'images/Image Mapping4.png', alt: 'Image 4' },
     ];
   
     // Array of images for the game section
     const gameImages = [
-      { src: 'Gallery/Game0.png', alt: 'Game 0' }, // This should be first
-      { src: 'Gallery/Game1.png', alt: 'Game 1' },
-      { src: 'Gallery/Game2.png', alt: 'Game 2' },
-      { src: 'Gallery/Game3.png', alt: 'Game 3' },
+      { src: 'images/Game0.png', alt: 'Game 0' }, // This should be first
+      { src: 'images/Game1.png', alt: 'Game 1' },
+      { src: 'images/Game2.png', alt: 'Game 2' },
+      { src: 'images/Game3.png', alt: 'Game 3' },
     ];
   
     // Array of images for the WeManage application
     const weManageImages = [
-      { src: 'Gallery/Login-WeManage.png', alt: 'Login WeManage' },
-      { src: 'Gallery/Register-WeManage.png', alt: 'Register WeManage' },
-      { src: 'Gallery/Dashboard-WeManage.png', alt: 'Dashboard WeManage' },
-      { src: 'Gallery/Editprofile-WeManage.png', alt: 'Edit Profile WeManage' },
-      { src: 'Gallery/Progress-WeManage.png', alt: 'Progress WeManage' },
-      { src: 'Gallery/Sched-WeManage.png', alt: 'Schedule WeManage' },
+      { src: 'images/Login-WeManage.png', alt: 'Login WeManage' },
+      { src: 'images/Register-WeManage.png', alt: 'Register WeManage' },
+      { src: 'images/Dashboard-WeManage.png', alt: 'Dashboard WeManage' },
+      { src: 'images/Editprofile-WeManage.png', alt: 'Edit Profile WeManage' },
+      { src: 'images/Progress-WeManage.png', alt: 'Progress WeManage' },
+      { src: 'images/Sched-WeManage.png', alt: 'Schedule WeManage' },
     ];
   
     // Array of images for the Bloggy application

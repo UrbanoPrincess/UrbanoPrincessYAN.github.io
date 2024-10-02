@@ -21,6 +21,7 @@
 		"flowbite": "^2.5.1",
 		"flowbite-svelte": "^0.46.17",
 		"gh-pages": "^5.0.0",
+		"rollup": "^4.24.0",
 		"svelte": "^4.2.19",
 		"svelte-check": "^4.0.0",
 		"svelte-fa": "^4.0.3",

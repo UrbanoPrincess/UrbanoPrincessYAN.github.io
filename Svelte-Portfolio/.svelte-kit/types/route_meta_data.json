@@ -1,0 +1,10 @@
+{
+	"/": [],
+	"/Home-Page": [],
+	"/about": [],
+	"/contact": [],
+	"/layout": [
+		"src/routes/layout/+layout.ts"
+	],
+	"/portfolio": []
+}

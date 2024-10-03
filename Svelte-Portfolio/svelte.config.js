@@ -13,6 +13,11 @@ const config = {
       precompress: false,
       strict: false, // Set to false to allow dynamic routes
     }),
+    
+    // Add paths configuration here
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/UrbanoPrincessYAN.github.io' : '',
+    },
   }
 };
 

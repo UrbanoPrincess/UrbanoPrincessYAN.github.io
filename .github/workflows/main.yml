@@ -20,10 +20,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16  # Try using Node.js version 16
 
       - name: Clean up node_modules
-        run: rm -rf node_modules
+        run: rm -rf node_modules package-lock.json
         working-directory: ./Svelte-Portfolio
 
       - name: Install dependencies

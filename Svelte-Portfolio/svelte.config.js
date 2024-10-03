@@ -14,7 +14,6 @@ const config = {
       strict: false,           // Allow dynamic routes
     }),
     paths: {
-      // Base path for GitHub Pages deployment
       base: process.env.NODE_ENV === 'production' ? '/UrbanoPrincessYAN.github.io' : '',
     },
   }

@@ -7,14 +7,12 @@ const config = {
 
   kit: {
     adapter: adapter({
-      pages: "build",
-      assets: "build",
-      fallback: 'index.html', // Enable SPA fallback
-      precompress: false,
-      strict: false, // Set to false to allow dynamic routes
+      pages: "build",          // Output directory for pages
+      assets: "build",         // Output directory for assets
+      fallback: 'index.html',  // SPA fallback for routing
+      precompress: false,      // Do not precompress assets
+      strict: false,           // Allow dynamic routes
     }),
-    
-    // Add paths configuration here
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/UrbanoPrincessYAN.github.io' : '',
     },

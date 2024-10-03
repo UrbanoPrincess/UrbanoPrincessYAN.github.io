@@ -22,13 +22,17 @@ jobs:
         with:
           node-version: 18
 
+      - name: Clean up node_modules
+        run: rm -rf node_modules
+        working-directory: ./Svelte-Portfolio
+
       - name: Install dependencies
         run: npm install
-        working-directory: ./Svelte-Portfolio  # Add this to point to the correct folder
+        working-directory: ./Svelte-Portfolio
 
       - name: Build SvelteKit app
         run: npm run build
-        working-directory: ./Svelte-Portfolio  # Add this to point to the correct folder
+        working-directory: ./Svelte-Portfolio
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
